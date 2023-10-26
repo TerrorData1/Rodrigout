@@ -146,3 +146,29 @@ footer {
     background-color: #C0AB82;
     color: rgb(247, 242, 242);
 }
+#youtube {
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+#instagram {
+    max-width: 40px;
+    max-height: 40px;
+
+
+}
+
+#facebook {
+    margin-left: 5px;
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+#tiktok {
+    margin-left: 5px;
+    max-width: 40px;
+    max-height: 40px;
+
+}
