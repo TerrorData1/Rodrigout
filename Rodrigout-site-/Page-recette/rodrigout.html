@@ -6,6 +6,7 @@
 <title>Rodrigoût</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     </head>
     <body>
@@ -19,7 +20,7 @@
               <div class="searchbar">
                 <form action="">
                     <input type="text" placeholder="Ingredients" style="width:400px" size="50">
-                    <button type="submit"><img src= "/Rodrigout-site-/assets/images.png" size = "20"></button>
+                    <button type="submit"><img src= "/Rodrigout-site-/assets/images.png" size ="20"></button>
                 </form>
             </div> 
           
@@ -46,10 +47,10 @@
 <!-- infos recette -->
 <div id="bandeau">
     <ul id="bandeauitem">
-        <li class="bandealist"><!--<img id="bandeauimg" src="/images/chef.png">--><p>1/5</p>Difficulté</li>
-        <li class="bandealist"><!--<img id="bandeauimg" src="/images/temps.png">--><p>15 min</p>Préparation</li>
-        <li class="bandealist"><!--<img id="bandeauimg" src="images/people.png">--><p>4 personnes</p>Quantité</li>
-        <li class="bandealist"><!--<img id="bandeauimg" src="/images/calories.png">--><p>200 kcal</p>Calories</li>
+        <li class="bandealist"><i id="iconlist" class="fas fa-star"></i><!--<i class="far fa-star "></i>--><p>1/5</p>Difficulté</li>
+        <li class="bandealist"><i class="fas fa-hourglass"></i> <!--<img id="bandeauimg" src="/images/temps.png">--><p>15 min</p>Préparation</li>
+        <li class="bandealist"><i class="fas fa-users"></i><!--<img id="bandeauimg" src="images/people.png">--><p>4 personnes</p>Quantité</li>
+        <li class="bandealist"><i class="fas fa-sort-numeric-up"></i> <!--<img id="bandeauimg" src="/images/calories.png">--><p>200 kcal</p>Calories</li>
         <img id="bandeauimg" src="/Rodrigout-site-/assets/images-recette/imprimante.png" alt="impression">
     </ul>
 </div>
@@ -153,20 +154,35 @@
 <!-- fin recipe -->
         <section class="comments">
             <h2>Commentaires</h2>
-            <div class="profil">
+<div id="comhead">
+    <div id="numbercom">
+        <i id="icon" class="fas fa-star"></i> 
+        <i id="icon" class="fas fa-star"></i> 
+        <i id="icon" class="fas fa-star"></i> 
+        <i id="icon" class="fas fa-star"></i> 
+        <i id="icon" class="fas fa-star-half-alt"></i> 
+        <p>240 avis</p></div>
+    <div id="addyourcom">
+        <i class="fas fa-pen"></i> 
+        <p>Redigez votre avis</p>
+    </div>
+</div>
+<div class="divider"></div>
+            <!-- <div class="profil"> -->
                 <div class="com">
                 <img id="imagecom" src="/Rodrigout-site-/assets/images-recette/person1.jpg" alt="person1">
-                <p class="name"> Marie Constance</p>
-                <h4 class="textcom">Très bon je recommande. La pâte peut se conserver 1 jour au frigo pour le faire le lendemain. </h4>
-                </div>
+                <p class="name"> Ana C.</p>
             </div>
-<hr>
+                <h4 class="textcom">Très bon je recommande. La pâte peut se conserver 1 jour au frigo pour le faire le lendemain. </h4>
+                <!-- </div> -->
+            
+<hr>   <div class="divider"></div>
             <div class="com"> 
                 <img id="imagecom" src="/Rodrigout-site-/assets/images-recette/person2.jpg" alt="person2">
-                <p class="name">Meriem rodriguez</p>
+                <p class="name">Meriem R.</p>
                 <h4 class="textcom">Top du top je ne savais pas quoi faire avec cette recette</h4>
             </div>
-<hr>
+<hr>  <div class="divider"></div>
             <div class="com"> 
                 <img id="imagecom" src="/Rodrigout-site-/assets/images-recette/person3.jpg" alt="person3">
                 <p class="name">Jaques philippe</p>
