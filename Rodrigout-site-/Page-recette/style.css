@@ -274,10 +274,9 @@ ul {
 /* fin etapes */
 /* debut comments */
 .comments{
-    /* max-width: 90%; */
-    width: 1000;
-    height: 550px;
-    padding: 0 10%  10% 5%;
+    width: 60%;
+    height: fit-content;
+    padding: 0% 10%  10% 10%;
     margin: 10%;
     background-color: #CDB58790;
     z-index: 0;
@@ -299,10 +298,27 @@ flex-direction: row;
 .com{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .profil{
 flex-direction: column; 
 /* display: flex;*/
+
+}
+.name{
+    font-weight: bold;
+    font-size: larger;
+}
+.comtext{
+    font-size: 22px;
+}
+
+h4{
+    font-family: 'bebas neue', sans-serif;
+    font-weight: 100;
+    font-size: larger;
 }
 /*fin comment*/
