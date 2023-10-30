@@ -1,3 +1,19 @@
+@media(max-width: 767px){
+body{
+   width: 100%;
+}
+    h1{font-size: 5%; 
+    }
+    .searchbar{
+        padding: 5px 5px;
+    }
+ 
+  }
+ 
+
+body{
+ box-sizing: border-box;
+}
 #header {   
     display:flex;
     justify-content: space-between;
@@ -242,16 +258,17 @@ box-shadow: 10px -5px 5px #7D4808;
     display: flex;
 margin: 10px;
     justify-content: center;
-    /* padding-bottom: 150px; */
+padding: 10%;
     
 }
 .imageetape{
 width: calc(100% - 10px); 
-height: 400px;
+height: 2%;
 border-radius: 5%;
 object-fit: cover;
-margin: 50px;
+margin: 10%;
 box-shadow: 10px 10px 5px #CDB587;
+padding: 10%;
 }
 .square3{
 width: 50vh; 
